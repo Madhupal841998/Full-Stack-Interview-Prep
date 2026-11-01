@@ -76,6 +76,10 @@ src/
 
 Study completion and visit timestamps are stored in the current browser using `localStorage`. Progress is local to that browser and is not synced between devices.
 
+## Support this project
+
+If you find this project useful, you can support its development through [GitHub Sponsors](https://github.com/sponsors/Madhupal841998). Individual GitHub Sponsors contributions have no platform fee. Sponsorship availability depends on the maintainer's GitHub Sponsors account being enabled.
+
 ## License
 
 This project is distributed under the MIT License. See [`LICENSE`](LICENSE).
