@@ -1,0 +1,210 @@
+[
+ {
+  "file": "backend_engineering_zero_to_expert_master_roadmap.md",
+  "title": "Zero to Expert Backend Engineering Master Roadmap",
+  "phase": -1,
+  "words": 3225,
+  "size": 28180,
+  "id": 0
+ },
+ {
+  "file": "phase-0-engineering-foundation.md",
+  "title": "Phase 0 — Engineering Foundation",
+  "phase": 0,
+  "words": 19920,
+  "size": 137268,
+  "id": 1
+ },
+ {
+  "file": "phase-1-javascript-zero-to-advanced.md",
+  "title": "Phase 1 — JavaScript from Zero to Advanced",
+  "phase": 1,
+  "words": 19146,
+  "size": 128862,
+  "id": 2
+ },
+ {
+  "file": "phase-2-typescript-zero-to-advanced.md",
+  "title": "Phase 2 — TypeScript from Zero to Advanced",
+  "phase": 2,
+  "words": 17125,
+  "size": 117110,
+  "id": 3
+ },
+ {
+  "file": "phase-03-data-structures-and-problem-solving.md",
+  "title": "Phase 3 — Data Structures and Problem Solving",
+  "phase": 3,
+  "words": 17243,
+  "size": 112439,
+  "id": 4
+ },
+ {
+  "file": "phase-4-nodejs-core.md",
+  "title": "Phase 4 — Node.js Core",
+  "phase": 4,
+  "words": 2701,
+  "size": 19300,
+  "id": 5
+ },
+ {
+  "file": "phase-5-express-http-backend.md",
+  "title": "Phase 5 — Express.js and HTTP Backend Development",
+  "phase": 5,
+  "words": 5694,
+  "size": 40462,
+  "id": 6
+ },
+ {
+  "file": "phase-06-mysql-and-sql.md",
+  "title": "Phase 6 — MySQL and SQL from Zero to Advanced",
+  "phase": 6,
+  "words": 13564,
+  "size": 92298,
+  "id": 7
+ },
+ {
+  "file": "phase-07-orm-and-data-access.md",
+  "title": "Phase 7 — ORM, Query Builders and Data Access",
+  "phase": 7,
+  "words": 14488,
+  "size": 100375,
+  "id": 8
+ },
+ {
+  "file": "phase-08-auth-and-security.md",
+  "title": "Phase 8 — Authentication, Authorization and Security",
+  "phase": 8,
+  "words": 13468,
+  "size": 90258,
+  "id": 9
+ },
+ {
+  "file": "phase-09-backend-architecture.md",
+  "title": "Phase 9 — Backend Architecture",
+  "phase": 9,
+  "words": 6850,
+  "size": 51508,
+  "id": 10
+ },
+ {
+  "file": "phase-10-low-level-design.md",
+  "title": "Phase 10 — Low-Level Design (LLD)",
+  "phase": 10,
+  "words": 10372,
+  "size": 78498,
+  "id": 11
+ },
+ {
+  "file": "phase-11-high-level-design.md",
+  "title": "Phase 11 — High-Level Design (HLD)",
+  "phase": 11,
+  "words": 9281,
+  "size": 62740,
+  "id": 12
+ },
+ {
+  "file": "phase-12-api-design.md",
+  "title": "Phase 12 — API Design",
+  "phase": 12,
+  "words": 8836,
+  "size": 60988,
+  "id": 13
+ },
+ {
+  "file": "phase_13_error_handling_and_resilience.md",
+  "title": "Phase 13 — Error Handling and Resilience",
+  "phase": 13,
+  "words": 7251,
+  "size": 49297,
+  "id": 14
+ },
+ {
+  "file": "phase_14_caching.md",
+  "title": "Phase 14 --- Caching",
+  "phase": 14,
+  "words": 7099,
+  "size": 50288,
+  "id": 15
+ },
+ {
+  "file": "phase-15-background-jobs-and-messaging.md",
+  "title": "Phase 15 — Background Jobs and Messaging",
+  "phase": 15,
+  "words": 13558,
+  "size": 93034,
+  "id": 16
+ },
+ {
+  "file": "phase-16-file-upload-and-media-processing.md",
+  "title": "Phase 16 — File Upload and Media Processing",
+  "phase": 16,
+  "words": 15181,
+  "size": 100617,
+  "id": 17
+ },
+ {
+  "file": "phase-17-distributed-systems.md",
+  "title": "Phase 17 — Distributed Systems",
+  "phase": 17,
+  "words": 17885,
+  "size": 116846,
+  "id": 18
+ },
+ {
+  "file": "phase-18-multi-tenant-saas-backend.md",
+  "title": "Phase 18 — Multi-Tenant SaaS Backend",
+  "phase": 18,
+  "words": 2500,
+  "size": 17748,
+  "id": 19
+ },
+ {
+  "file": "phase-19-observability-production-ops.md",
+  "title": "Phase 19 — Observability and Production Operations",
+  "phase": 19,
+  "words": 5709,
+  "size": 39135,
+  "id": 20
+ },
+ {
+  "file": "phase-20-testing.md",
+  "title": "Phase 20 — Testing",
+  "phase": 20,
+  "words": 8440,
+  "size": 58971,
+  "id": 21
+ },
+ {
+  "file": "phase-22-performance-engineering.md",
+  "title": "Phase 22 — Performance Engineering",
+  "phase": 22,
+  "words": 2908,
+  "size": 19180,
+  "id": 22
+ },
+ {
+  "file": "phase_23_advanced_backend_topics.md",
+  "title": "Phase 23 — Advanced Backend Topics (Expanded)",
+  "phase": 23,
+  "words": 7630,
+  "size": 54179,
+  "id": 23
+ },
+ {
+  "file": "phase-24-portfolio-projects.md",
+  "title": "Phase 24 — Portfolio Projects",
+  "phase": 24,
+  "words": 3027,
+  "size": 20520,
+  "id": 24
+ },
+ {
+  "file": "phase-25-interview-preparation.md",
+  "title": "Phase 25 — Interview Preparation",
+  "phase": 25,
+  "words": 22707,
+  "size": 151966,
+  "id": 25
+ }
+]

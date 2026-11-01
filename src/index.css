@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Markdown body typography */
+.md-body {
+  @apply text-[15px] leading-7;
+  overflow-wrap: break-word;
+}
+.md-body h1 {
+  @apply mb-4 mt-10 text-2xl font-bold first:mt-0;
+}
+.md-body h2 {
+  @apply mb-3 mt-10 border-b pb-2 text-xl font-semibold;
+}
+.md-body h3 {
+  @apply mb-2 mt-8 text-lg font-semibold;
+}
+.md-body h4 {
+  @apply mb-2 mt-6 text-base font-semibold;
+}
+.md-body h5,
+.md-body h6 {
+  @apply mb-2 mt-4 text-sm font-semibold;
+}
+.md-body a {
+  @apply font-medium text-blue-600 underline underline-offset-2 dark:text-blue-400;
+}
+.md-body p {
+  @apply my-3;
+}
+.md-body ul {
+  @apply my-3 list-disc space-y-1 pl-6;
+}
+.md-body ol {
+  @apply my-3 list-decimal space-y-1 pl-6;
+}
+.md-body li > ul,
+.md-body li > ol {
+  @apply my-1;
+}
+.md-body blockquote {
+  @apply my-4 border-l-4 border-muted-foreground/30 pl-4 italic text-muted-foreground;
+}
+.md-body code {
+  @apply rounded bg-muted px-1.5 py-0.5 font-mono text-[13px] text-foreground;
+}
+.md-body pre {
+  @apply my-4 overflow-x-auto rounded-lg border bg-muted/60 p-4;
+}
+.md-body pre code {
+  @apply bg-transparent p-0 text-[13px] leading-6;
+}
+.md-body table {
+  @apply my-4 w-full border-collapse text-sm;
+}
+.md-body th {
+  @apply border-b-2 bg-muted/50 px-3 py-2 text-left font-semibold;
+}
+.md-body td {
+  @apply border-b px-3 py-2 align-top;
+}
+.md-body hr {
+  @apply my-8 border-muted-foreground/20;
+}
+.md-body img {
+  @apply my-4 max-w-full rounded-lg;
+}
